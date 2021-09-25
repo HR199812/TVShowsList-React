@@ -20,9 +20,6 @@ function ViewAllShows() {
         const showsData = await axios.get('https://api.tvmaze.com/search/shows?q=all');
 
         SetShowsArr(showsData.data);
-        // SetShowsArrCopy(showsData.data);
-
-        console.log(showsData.data);
 
     }
 

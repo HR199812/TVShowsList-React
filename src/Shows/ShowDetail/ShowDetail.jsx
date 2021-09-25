@@ -1,12 +1,9 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import './ShowDetail.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 function ShowDetails(props) {
-
-    console.log(props.location.state);
 
     const history = useHistory();
 
