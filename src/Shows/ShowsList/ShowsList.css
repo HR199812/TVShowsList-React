@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Heading {
+    text-align: center;
+    background-color: wheat;
+    color: black;
+}
+
+.Container {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    display: inline-block;
+    background-color: #04af21ab;
+}
+
+.Card {
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 10px 1px;
+    border-color: black;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    float: left;
+    margin: 1rem;
+    height: 65vh;
+    width: 16rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Card:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+.cardImage {
+    width: 200px;
+    height: 250px;
+}
+
+.cardTitle {
+    font-family: 'Pangolin', cursive;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.buton {
+    margin-top: 1rem;
+    font-family: 'Pangolin', cursive;
+    font-size: large;
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1px 1px;
+}
+
+.navBar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

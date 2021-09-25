@@ -1,0 +1,66 @@
+.BackButtonContainer {
+    padding: 1em;
+}
+
+.BackButtonContainer button {
+    width: 50px;
+    height: 50px;
+    background-color: #04af21ab;
+    border-radius: 50%;
+    color: whitesmoke;
+    border: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    outline: none;
+}
+
+.BackButtonContainer button:hover {
+    width: 55px;
+    height: 55px;
+    background-color: #02941aab;
+}
+.DetailsCardContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.DetailsContainer {
+    width: 62%;
+    height: 80vh;
+    display: inline-block;
+    padding: 2rem;
+    color: black;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+.ShowImage img{
+    border: 10px;
+    width: 16vw;
+    height: 50vh;
+    float: left;
+    cursor: pointer;
+}
+
+.ShowDetails {
+    float: left;
+    margin-left: 1em;
+    width: 40vw;
+}
+
+.PremieredDate{
+    font-size: smaller;
+    font-weight: 400;
+}
+
+p{
+    font-size: larger;
+    font-weight: 450;
+}
+
+i:hover{
+    font-size: larger;
+    cursor: pointer;
+}
