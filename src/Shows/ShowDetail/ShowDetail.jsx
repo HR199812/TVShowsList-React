@@ -5,18 +5,25 @@ import 'font-awesome/css/font-awesome.min.css';
 
 function ShowDetails(props) {
 
+    // History variable to push another component on view
     const history = useHistory();
 
+    // Function to push to List component
     const GoBack = () => {
         history.push('/');
     }
+
+    // Function to redirect to official site of the show
     const GotoOfficialSite = (siteURl) => {
         window.open(`${siteURl}`, '_blank');
     }
+
+    // Function to redirect to tvmaze page of the show
     const GotoTvMaze = (siteURl) => {
         window.open(`${siteURl}`, '_blank');
     }
 
+    // Using use effect to set summary data on page load only.
     useEffect(() => {
         document.querySelector('.Summary').innerHTML =
             "<h2>Summary:</h2>" + props.location.state.show.summary;
